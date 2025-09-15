@@ -140,5 +140,157 @@
       "apps/api/package.json",
       "nx/core/package-json"
     ]
+  },
+  "libs/auth": {
+    "root": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "libs/auth/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "libs/data": {
+    "root": [
+      "libs/data/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "libs/data/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "libs/data/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "libs/data/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "libs/data/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "libs/data/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "libs/data/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "libs/data/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "libs/data/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "libs/data/package.json",
+      "nx/core/package-json"
+    ]
   }
 }

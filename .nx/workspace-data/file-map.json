@@ -6,51 +6,95 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "lib/auth/index.ts",
-        "hash": "10103470072451831985"
+        "file": ".gitignore",
+        "hash": "7663861978715868291"
       },
       {
-        "file": "lib/auth/rbac.service.ts",
-        "hash": "1968537041578986571"
+        "file": "nx.json",
+        "hash": "18336426213955174907"
       },
       {
         "file": "package.json",
         "hash": "3947981305196046779"
       },
       {
-        "file": "lib/data/types.ts",
-        "hash": "6866884531813279960"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": "lib/auth/guards.ts",
-        "hash": "1836277227748235911"
-      },
-      {
-        "file": "lib/auth/decorators.ts",
-        "hash": "1972518341394036438"
-      },
-      {
-        "file": "lib/data/package.json",
-        "hash": "11867981532353037232"
-      },
-      {
-        "file": "lib/auth/package.json",
-        "hash": "9329324227905213988"
-      },
-      {
         "file": "package-lock.json",
-        "hash": "17313838111415066743"
-      },
-      {
-        "file": "nx.json",
-        "hash": "18336426213955174907"
+        "hash": "1356306191220308028"
       }
     ],
     "projectFileMap": {
+      "@tasks/auth": [
+        {
+          "file": "libs/auth/guards/index.ts",
+          "hash": "2571256645764189017"
+        },
+        {
+          "file": "libs/auth/guards/jwt-rbac.guard.ts",
+          "hash": "4833194052600300932"
+        },
+        {
+          "file": "libs/auth/index.ts",
+          "hash": "14792528933836838668"
+        },
+        {
+          "file": "libs/auth/jest.config.js",
+          "hash": "2402864251540272429"
+        },
+        {
+          "file": "libs/auth/jwt/index.ts",
+          "hash": "5510389679282147921"
+        },
+        {
+          "file": "libs/auth/jwt/jwt.guard.ts",
+          "hash": "2069217467809530082"
+        },
+        {
+          "file": "libs/auth/jwt/jwt.service.test.ts",
+          "hash": "44913425042237763"
+        },
+        {
+          "file": "libs/auth/jwt/jwt.service.ts",
+          "hash": "7920451359207865100"
+        },
+        {
+          "file": "libs/auth/package.json",
+          "hash": "18336248126993917494",
+          "deps": [
+            "npm:@types/jsonwebtoken",
+            "npm:@types/jest",
+            "npm:jest",
+            "npm:ts-jest",
+            "npm:@nestjs/common",
+            "npm:jsonwebtoken"
+          ]
+        },
+        {
+          "file": "libs/auth/rbac/index.ts",
+          "hash": "15051821420375556254"
+        },
+        {
+          "file": "libs/auth/rbac/rbac-auth.service.ts",
+          "hash": "13423226914527083527"
+        },
+        {
+          "file": "libs/auth/rbac/rbac.decorators.ts",
+          "hash": "9719092746954327194"
+        },
+        {
+          "file": "libs/auth/rbac/rbac.guard.ts",
+          "hash": "7733658712210299919"
+        }
+      ],
+      "@tasks/data": [
+        {
+          "file": "libs/data/package.json",
+          "hash": "11867981532353037232"
+        },
+        {
+          "file": "libs/data/types.ts",
+          "hash": "6866884531813279960"
+        }
+      ],
       "api": [
         {
           "file": "apps/api/.gitignore",
@@ -84,7 +128,19 @@
         },
         {
           "file": "apps/api/src/app.module.ts",
-          "hash": "12994290301325991581"
+          "hash": "14992001115376422740"
+        },
+        {
+          "file": "apps/api/src/auth/auth.controller.ts",
+          "hash": "14524504187570721626"
+        },
+        {
+          "file": "apps/api/src/auth/auth.module.ts",
+          "hash": "13932583588443411396"
+        },
+        {
+          "file": "apps/api/src/auth/auth.service.ts",
+          "hash": "12960299882893008161"
         },
         {
           "file": "apps/api/src/data-source.ts",
@@ -112,15 +168,15 @@
         },
         {
           "file": "apps/api/src/index.ts",
-          "hash": "14817064686694564758"
+          "hash": "4668502197466357622"
         },
         {
           "file": "apps/api/src/users/users.controller.ts",
-          "hash": "11660586034569535355"
+          "hash": "10329601832964432487"
         },
         {
           "file": "apps/api/src/users/users.module.ts",
-          "hash": "16827123938879693285"
+          "hash": "2148138083399333053"
         },
         {
           "file": "apps/api/src/users/users.service.ts",
@@ -133,5 +189,5 @@
       ]
     }
   },
-  "externalNodesHash": "10884125461188616005"
+  "externalNodesHash": "12500670861388685660"
 }
