@@ -1,0 +1,137 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.5.2",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "lib/auth/index.ts",
+        "hash": "10103470072451831985"
+      },
+      {
+        "file": "lib/auth/rbac.service.ts",
+        "hash": "1968537041578986571"
+      },
+      {
+        "file": "package.json",
+        "hash": "3947981305196046779"
+      },
+      {
+        "file": "lib/data/types.ts",
+        "hash": "6866884531813279960"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "lib/auth/guards.ts",
+        "hash": "1836277227748235911"
+      },
+      {
+        "file": "lib/auth/decorators.ts",
+        "hash": "1972518341394036438"
+      },
+      {
+        "file": "lib/data/package.json",
+        "hash": "11867981532353037232"
+      },
+      {
+        "file": "lib/auth/package.json",
+        "hash": "9329324227905213988"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "17313838111415066743"
+      },
+      {
+        "file": "nx.json",
+        "hash": "18336426213955174907"
+      }
+    ],
+    "projectFileMap": {
+      "api": [
+        {
+          "file": "apps/api/.gitignore",
+          "hash": "8912511684947105637"
+        },
+        {
+          "file": "apps/api/README.md",
+          "hash": "7963835374367584476"
+        },
+        {
+          "file": "apps/api/package-lock.json",
+          "hash": "14718988367608075834"
+        },
+        {
+          "file": "apps/api/package.json",
+          "hash": "16201848779355991890",
+          "deps": [
+            "npm:@types/node@22.18.3",
+            "npm:ts-node",
+            "npm:typeorm-extension",
+            "npm:typescript",
+            "npm:@nestjs/common",
+            "npm:@nestjs/core",
+            "npm:@nestjs/platform-express",
+            "npm:@nestjs/typeorm",
+            "npm:pg",
+            "npm:reflect-metadata",
+            "npm:sqlite3",
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/app.module.ts",
+          "hash": "12994290301325991581"
+        },
+        {
+          "file": "apps/api/src/data-source.ts",
+          "hash": "3351251444464615591"
+        },
+        {
+          "file": "apps/api/src/database/seed.ts",
+          "hash": "10038637043957503488"
+        },
+        {
+          "file": "apps/api/src/database/seeds/role.seeder.ts",
+          "hash": "2649553271391540381"
+        },
+        {
+          "file": "apps/api/src/database/seeds/user.seeder.ts",
+          "hash": "7855754999791397720"
+        },
+        {
+          "file": "apps/api/src/entity/Role.ts",
+          "hash": "13328528876882942603"
+        },
+        {
+          "file": "apps/api/src/entity/User.ts",
+          "hash": "13733913491132582351"
+        },
+        {
+          "file": "apps/api/src/index.ts",
+          "hash": "14817064686694564758"
+        },
+        {
+          "file": "apps/api/src/users/users.controller.ts",
+          "hash": "11660586034569535355"
+        },
+        {
+          "file": "apps/api/src/users/users.module.ts",
+          "hash": "16827123938879693285"
+        },
+        {
+          "file": "apps/api/src/users/users.service.ts",
+          "hash": "11124385376466308349"
+        },
+        {
+          "file": "apps/api/tsconfig.json",
+          "hash": "8397269745205830645"
+        }
+      ]
+    }
+  },
+  "externalNodesHash": "10884125461188616005"
+}
