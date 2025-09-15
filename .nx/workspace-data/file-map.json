@@ -6,20 +6,20 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".gitignore",
-        "hash": "7663861978715868291"
+        "file": "package-lock.json",
+        "hash": "1356306191220308028"
       },
       {
-        "file": "nx.json",
-        "hash": "18336426213955174907"
+        "file": ".gitignore",
+        "hash": "7663861978715868291"
       },
       {
         "file": "package.json",
         "hash": "3947981305196046779"
       },
       {
-        "file": "package-lock.json",
-        "hash": "1356306191220308028"
+        "file": "nx.json",
+        "hash": "18336426213955174907"
       }
     ],
     "projectFileMap": {
@@ -74,15 +74,15 @@
         },
         {
           "file": "libs/auth/rbac/rbac-auth.service.ts",
-          "hash": "13423226914527083527"
+          "hash": "7753556347449718490"
         },
         {
           "file": "libs/auth/rbac/rbac.decorators.ts",
-          "hash": "9719092746954327194"
+          "hash": "15153514920043987536"
         },
         {
           "file": "libs/auth/rbac/rbac.guard.ts",
-          "hash": "7733658712210299919"
+          "hash": "1361253824401721534"
         }
       ],
       "@tasks/data": [
